@@ -1206,9 +1206,9 @@ function event(argMapping, config) {
   };
 }
 
-const forkEvent = function() {
+function forkEvent() {
   return function() {};
-};
+}
 
 const AnimatedImplementation = {
   Value: AnimatedValue,
