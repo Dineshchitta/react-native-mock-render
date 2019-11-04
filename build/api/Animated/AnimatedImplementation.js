@@ -1206,9 +1206,9 @@ config.listener.apply(null,args);
 };
 }
 
-var forkEvent=function(){function forkEvent(){
+function forkEvent(){
 return function(){};
-}return forkEvent;}();
+}
 
 var AnimatedImplementation=_extends({
 Value:AnimatedValue,
